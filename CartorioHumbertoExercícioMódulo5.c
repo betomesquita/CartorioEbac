@@ -38,6 +38,11 @@ int main()
 			case 3: // Quando escolher a "opção 3" e pressionar "enter" ele vai para as opções de deletar.
 			deletar();
 			break;
+			
+			case 4:
+			printf("Obrigado por utilizar o sistema\n");
+			return 0;
+			break;
 					
 			default: // Quando escolher uma opção que nao seja 1,2 e 3 ele dá esse erro.
 			printf("Essa opção não está disponível!\n");
